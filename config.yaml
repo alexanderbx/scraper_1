@@ -3,7 +3,7 @@ seeder:
   disabled: false
 
 parsers: 
-  - file: ./parser/search.rb
+  - file: ./parsers/search.rb
     page_type: search
     disabled: false
   
