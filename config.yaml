@@ -5,5 +5,5 @@ seeder:
 parser: 
   - file: ./parser/search.rb
     page_type: search
-    disabled: true
+    disabled: false
   
