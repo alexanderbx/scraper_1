@@ -7,7 +7,11 @@ products.each do |product|
   url = product.css('.s-item__link').attr('href')
   pages << {
     url: url,
-    page_type: 'product'
+    page_type: 'product',
+    vars: {
+        name: name,
+        price: price
+    }
   }
 
 end
