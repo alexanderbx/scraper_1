@@ -10,3 +10,7 @@ parsers:
   - file: ./parsers/product.rb
     page_type: product
     disabled: false
+
+finisher:
+  file: ./finisher/finisher.rb
+  disabled: true
