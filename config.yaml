@@ -2,7 +2,7 @@ seeder:
   file: ./seeder/seeder.rb
   disabled: false
 
-parser: 
+parsers: 
   - file: ./parser/search.rb
     page_type: search
     disabled: false
