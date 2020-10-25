@@ -13,4 +13,4 @@ parsers:
 
 finisher:
   file: ./finisher/finisher.rb
-  disabled: true
+  disabled: false
